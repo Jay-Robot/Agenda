@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="995.0" y="179.0">Entidade.Proximidade</node>
+    <node x="171.0" y="594.0">Controle</node>
+    <node x="0.0" y="594.0">Fronteira</node>
+    <node x="418.0" y="179.0">Entidade.Familiar</node>
+    <node x="0.0" y="0.0">Entidade.Contato</node>
+    <node x="215.0" y="520.0">Entidade.EventoSocial</node>
+    <node x="341.0" y="594.0">Entidade.Agenda</node>
+    <node x="504.0" y="520.0">Entidade.EventoProfissional</node>
+    <node x="0.0" y="363.0">Entidade.Evento</node>
+    <node x="842.0" y="179.0">Entidade.Genero</node>
+    <node x="624.0" y="179.0">Entidade.Colega</node>
+    <node x="310.0" y="179.0">Entidade.Amigo</node>
+    <node x="354.0" y="520.0">Entidade.EventoFamiliar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Entidade.Contato" target="Entidade.Genero">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.Contato" target="Entidade.Proximidade">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.EventoSocial" target="Entidade.Evento">
+      <point x="0.0" y="0.0" />
+      <point x="264.5" y="421.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.EventoFamiliar" target="Entidade.Evento">
+      <point x="0.0" y="0.0" />
+      <point x="409.0" y="421.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.EventoProfissional" target="Entidade.Evento">
+      <point x="0.0" y="0.0" />
+      <point x="568.5" y="421.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.Familiar" target="Entidade.Contato">
+      <point x="0.0" y="0.0" />
+      <point x="501.0" y="69.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.Colega" target="Entidade.Contato">
+      <point x="0.0" y="0.0" />
+      <point x="713.0" y="69.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Entidade.Amigo" target="Entidade.Contato">
+      <point x="0.0" y="0.0" />
+      <point x="344.0" y="69.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8784246575342466" x="574.0" y="311.5" />
+  <SelectedNodes>
+    <node>Entidade.Evento</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
