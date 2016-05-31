@@ -8,4 +8,5 @@ public class Evento {
     private String local;
     private String endereco;
     private java.util.Date data;
+    private java.util.ArrayList<Contato> listaContatos;
 }
